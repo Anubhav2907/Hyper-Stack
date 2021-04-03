@@ -1,0 +1,26 @@
+.nav-item {
+    font-size: 1.1em;
+    padding: 2px;
+}
+
+.navbar {
+    background: url('electronics_bg.jpg');
+    background-size: 100%;
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    height: 75px;
+}
+
+.container-fluid {
+    z-index: 2;
+    /* position: fixed; */
+}
+
+h1 {
+    font-size: 25px;
+    padding: 15px;
+}
