@@ -1,26 +1,18 @@
 .nav-item {
-    font-size: 1.1em;
+    font-size: 1.3em;
     padding: 2px;
 }
 
-.navbar {
-    background: url('C:\Users\ADMIN\Desktop\Hyper-Stack\images\electronics_bg.jpg');
-    background-size: 100%;
-    /* position: fixed; */
-    left: 0;
-    right: 0;
-    z-index: -1;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-    height: 75px;
-}
-
-.container-fluid {
-    z-index: 2;
-    /* position: fixed; */
-}
+/* .container-fluid {
+    display: flex;
+    justify-content: end;
+} */
 
 h1 {
     font-size: 25px;
     padding: 15px;
+}
+
+.svnit {
+    margin: 50%;
 }
