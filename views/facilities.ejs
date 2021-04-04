@@ -1,4 +1,358 @@
 <%- include('partials/head')%>
-<%- include('partials/navbar')%>
 
-<%- include('partials/footer')%>s
+    <body style="background-color: #d3e0ea;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <div class="col-lg-1 pt-2 pb-2">
+                    <a href="/" class="navbar-brand p-2">
+                        <img src="images\svnit logo.png" alt="" height="50%" width="50%">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-lg-7 top">
+                    <p class="tag">
+                        Sardar Vallabhbhai National Institute of Technology
+                    </p>
+                </div>
+                <div class="collapse navbar-collapse col-lg-4 last" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                People
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item dropdown-top" href="/faculty">Faculty</a></li>
+                                <li><a class="dropdown-item" href="/staff">Staff</a></li>
+                                <li><a class="dropdown-item" href="/students">Students</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Research
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item " href="/SponsoredProjects">Completed Research
+                                        Projects</a></li>
+                                <li><a class="dropdown-item " href="/Currentprojects">Ongoing Research
+                                        Projects</a></li>
+                                <li><a class="dropdown-item" href="/ResearchFacilities">Research Facilities</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="list2 list">
+            <p class="completed dept"></p>
+        </div>
+        <div class="list">
+            <p class="completed">List of existing Research facilities available in the department</p>
+        </div>
+        <div class="container">
+            <table class="table table-hover table-bordered table-striped table-light">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Sr.No</th>
+                        <th scope="col">Name of Laboratories</th>
+                        <th scope="col">Existing Research facilities</th>
+                        <th scope="col">Year of establishment</th>
+                        <th scope="col">Cost of the Asset</th>
+                        <th scope="col">Usage Charges</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Communication Research Lab</td>
+                        <td>MXG Vector signal generator 100kHz-3GHz</td>
+                        <td>8/12/2011</td>
+                        <td>7,98,000/-</td>
+                        <td>200/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Communication Research Lab</td>
+                        <td>RF signal generator 9KHz to 3.0 GHz</td>
+                        <td>17/11/2014</td>
+                        <td>11,97,730/-</td>
+                        <td>250/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Communication Research Lab</td>
+                        <td>Cognitive Wireless communication Software Defined radio Lab SDR04</td>
+                        <td>14/05/2014</td>
+                        <td>13,65.000/-</td>
+                        <td>400/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Communication Research Lab</td>
+                        <td>Frequency range 9KHz to 3.0GHz CXA signal analyzer</td>
+                        <td>17/11/2014</td>
+                        <td>11,97,730/-</td>
+                        <td>250/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Communication Research Lab</td>
+                        <td>Wireless Measurement studio(Field fox VNA)</td>
+                        <td>18/04/2014</td>
+                        <td>15,25,730.85/-</td>
+                        <td>500/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Communication Research Lab</td>
+                        <td>N5172B EXG X-Series RF vector signal generator</td>
+                        <td>06/04/2018</td>
+                        <td>27,86,885/-</td>
+                        <td>1000/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Communication Research Lab</td>
+                        <td>ARAMIS GPS L1, IRNSS L5, IRNSS S Software Receiver( GNSS Multi Frequency FEM/MFR Device)
+                        </td>
+                        <td>24/09/2019</td>
+                        <td>$20,810</td>
+                        <td>1000/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Communication Research Lab</td>
+                        <td>EXG X-Series RF vector signal generator</td>
+                        <td>03/08/2018</td>
+                        <td>27,86,885/-</td>
+                        <td>1000/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Basic Communication Lab</td>
+                        <td>Mixed Domain Oscilloscope, 2 channel, 2.5 Gs/s, 100MHz MDO3012</td>
+                        <td>30/03/2015</td>
+                        <td>28,72,800/-</td>
+                        <td>1000/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Electronics System Design Lab</td>
+                        <td>Mixed domain oscilloscope</td>
+                        <td>04/02/2015</td>
+                        <td>4,78,800/-</td>
+                        <td>1000/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td>Electronics System Design Lab</td>
+                        <td>Smart Camera <br>
+                            Lab view <br>
+                            Core Software</td>
+                        <td>29/03/11</td>
+                        <td>5,91,744/-</td>
+                        <td>1000/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td>Electronics System Design Lab</td>
+                        <td>PCB Proto type Machine</td>
+                        <td>14/04/13</td>
+                        <td>12,98,850/-</td>
+                        <td>2000/- (5 x 3 inch)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13</th>
+                        <td>Embedded System Lab</td>
+                        <td>NetFPGA SUME Board (1 Nos.)</td>
+                        <td>08/09/2016</td>
+                        <td>6,96,300/-</td>
+                        <td>500/- per hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14</th>
+                        <td>Microwave and Optical Communication lab</td>
+                        <td>RF vector Analyzer</td>
+                        <td>13/03/2014</td>
+                        <td>9,97,875.00/-</td>
+                        <td>500/- per sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15</th>
+                        <td>Microwave and Optical Communication laboratory</td>
+                        <td>CAD FEKO (6.0) Software</td>
+                        <td>23/02/2011</td>
+                        <td>12,60,000/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16</th>
+                        <td>Microwave and Optical Communication laboratory</td>
+                        <td>Empire Excel v5.01-A 3D Modeling software (full package)for RF & Microwave Application</td>
+                        <td>17/07/2007</td>
+                        <td>5,19,376/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17</th>
+                        <td>Microwave and Optical Communication laboratory</td>
+                        <td> Microwave Integrated Circuit Trainer Kit (1 set)
+                            <br> Microwave Signal Source
+                            <br> VSWR Meter
+                            <br> Accessories
+                        </td>
+                        <td>17/01/2006</td>
+                        <td>7,12,770/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18</th>
+                        <td>Sensor Research Lab</td>
+                        <td>Omricon lab model-Bode 100
+                            <br> B-wit100 wideband injection transformer
+                        </td>
+                        <td>10/11/2016</td>
+                        <td>7,19,775/-</td>
+                        <td>500/- per sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19</th>
+                        <td>Sensor Research Lab</td>
+                        <td>Laser Spectrum Analyzer
+                            Type: LSA with 1550nm Wide band Light Source</td>
+                        <td>23/04/2015</td>
+                        <td>24,60,863/-</td>
+                        <td>500/- per sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20</th>
+                        <td>Sensor Research Lab</td>
+                        <td>Smart Scope 4, Optical Channels, Upto 16FGBS
+                            (DST Project Grant)</td>
+                        <td>19/10/2013</td>
+                        <td>16,54,405/-</td>
+                        <td>1000/- per sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21</th>
+                        <td>Sensor Research Lab</td>
+                        <td>High Resolution Spectrometer with Light Source, Probes and Accessories (DRDO Project Grant)
+                        </td>
+                        <td>02/12/2011</td>
+                        <td>12,07,103/-</td>
+                        <td>1000/- per sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">22</th>
+                        <td>Sensor Research Lab</td>
+                        <td>Field Optical Spectrum Analyzer & Broad Band Optical Source Sled (1550NM) with OSA cable
+                        </td>
+                        <td>30/03/2012</td>
+                        <td>15,75,000/</td>
+                        <td>1000/- per sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">23</th>
+                        <td>Sensor Research Lab</td>
+                        <td>High resolution Spectrometer with <br> light source <br> detector <br> laptop and other
+                            Accessories.</td>
+                        <td>27/06/2011</td>
+                        <td>6,74,782/-</td>
+                        <td>1000/- per sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">24</th>
+                        <td>Sensor Research Lab</td>
+                        <td>Optisuite, OptiFDTDOpti System, OptiSpice&Opti BPM, OptiGratting (DRDO LAB)</td>
+                        <td>02/12/2014</td>
+                        <td>19,85,025/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">25</th>
+                        <td>Sensor Research Lab</td>
+                        <td>RSoftDiffect MOD add-on & FEMSIM add-on v2014.09 S/W</td>
+                        <td>01-12-2014</td>
+                        <td>6,98,250/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">26</th>
+                        <td>Sensor Research Lab</td>
+                        <td>COMSOL Multiphysics, RF Modules, Wave Optics Module</td>
+                        <td>18-11-2014</td>
+                        <td>6,09,368/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">27</th>
+                        <td>Sensor Research Lab</td>
+                        <td>RSoft CAD GUI v2013.12 Software with add-on full wave single User Node Locked Academic
+                            License for Window 7/8</td>
+                        <td>23-06-2014</td>
+                        <td>8,29,500/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">28</th>
+                        <td>Sensor Research Lab</td>
+                        <td>Opti System
+                            (PROJECT LAB)</td>
+                        <td>20-01-2012</td>
+                        <td>8,68,613/-</td>
+                        <td>300/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">29</th>
+                        <td>TCAD Lab</td>
+                        <td>SCS Parameter Analyzer System</td>
+                        <td>16/01/2017</td>
+                        <td>21,21,000/-</td>
+                        <td>1000/- Per Sample</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">30</th>
+                        <td>TCAD Lab</td>
+                        <td>Advance (3D) Synopsys TCAD University Bundle</td>
+                        <td>19/01/2016</td>
+                        <td>5,01,960/-</td>
+                        <td>300/- per hours <br>
+                            (only academic purpose)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">31</th>
+                        <td>VLSI Lab</td>
+                        <td>Logic Analyzer (34 Channel)</td>
+                        <td>11-12-2013</td>
+                        <td>11,39,250/-</td>
+                        <td> 1000/- per hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">32</th>
+                        <td>VLSI Lab</td>
+                        <td>● Synopsys (5 licenses) <br>
+                            ● Mentor (20 licenses) <br>
+                            ● Cadence (10 licenses) <br>
+                            ● Xilinx Vivardo Design Suite 2015 (25 licenses) <br>
+                            ● Xilinx SDSoC (25 licenses)</td>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>Rs. 300/- per hours <br>
+                            (only academic purpose)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="app.js"></script>
+        <%- include('partials/footer')%>
