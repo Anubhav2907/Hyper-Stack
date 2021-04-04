@@ -1,6 +1,12 @@
 body{
     overflow-x: hidden;
-    background-color: #252525;
+    background-color: #e4d3cf;
+}
+.dropdown-item{
+  margin-top: 0.5em;
+}
+dropdown-top{
+  margin-top: 0;
 }
 .bg-dark {
     background-color: #000000!important;
@@ -141,4 +147,9 @@ h1 {
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #ffffff;
   }
-        
+  @media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{   }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+  }
