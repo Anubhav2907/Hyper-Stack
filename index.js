@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'/views'));
 const mongoose = require('mongoose');
 const Product = require('./model/sponsoredProj');
-mongoose.connect('mongodb://localhost:27017/items', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/Sponsored', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log("MONGO CONNECTION OPEN!!!")
     })
@@ -39,6 +39,9 @@ app.get('/ResearchFacilities',function(req,res){
 app.get('/SponsoredProjects', async (req,res)=>{
     const products = await Product.find({});
     res.render('sponsored', {products})
+})
+app.get('/CurrentProjects', function(req,res){
+    res.render('current')
 })
 app.listen(3000, function(){
     console.log('On port 3000!!!');
