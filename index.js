@@ -21,15 +21,13 @@ app.get('/staff',function(req,res){
 app.get('/students',function(req,res){
     res.render('students')
 })
-app.get('/ResearchFacilities',function(req,res){
-    res.render('facilities')
+app.get('/phd',function(req,res){
+    res.render('phd')
 })
-app.get('/SponsoredProjects', async (req,res)=>{
-    res.render('sponsored')
+app.get('/Research',function(req,res){
+    res.render('research')
 })
-app.get('/CurrentProjects', function(req,res){
-    res.render('current')
-})
+
 app.listen(3000, function(){
     console.log('On port 3000!!!');
 })
