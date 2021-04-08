@@ -177,13 +177,13 @@ h1 {
     background-color:#d3e0ea;
   }
   
-  .team-boxed p {
+ p {
     color:#7d8285;
   }
   
-  .team-boxed h2 {
+h2 {
     font-weight:bold;
-    margin-bottom:40px;
+    margin-bottom:0.8em;
     padding-top:40px;
     color:inherit;
   }
@@ -196,39 +196,38 @@ h1 {
     }
   }
   
-  .team-boxed .intro {
+.intro {
     font-size:16px;
     max-width:500px;
-    margin:0 auto;
+    margin:auto;
   }
   
-  .team-boxed .intro p {
+.intro p {
     margin-bottom:0;
   }
   
-  .team-boxed .people {
+.people {
     padding:50px 0;
   }
-  
-  .team-boxed .item {
-    text-align:center;
-  }
-  
-  .team-boxed .item .box {
+.svg{
+    height:110%;
+    width:110%;
+}
+.item .box {
     text-align:center;
     padding:30px;
     background-color:#fff;
     margin-bottom:30px;
   }
   
-  .team-boxed .item .name {
+ .item .name {
     font-weight:bold;
     margin-top:28px;
     margin-bottom:8px;
     color:inherit;
   }
   
-  .team-boxed .item .title {
+.item .title {
     text-transform:uppercase;
     font-weight:bold;
     color:#d0d0d0;
@@ -236,29 +235,28 @@ h1 {
     font-size:13px;
   }
   
-  .team-boxed .item .description {
+.item .description {
     font-size:15px;
     margin-top:15px;
     margin-bottom:20px;
   }
   
-  .team-boxed .item img {
+.item img {
     max-width:160px;
   }
   
-  .team-boxed .social {
+.social {
     font-size:18px;
     color:#a2a8ae;
   }
-  
-  .team-boxed .social a {
+.social a {
     color:inherit;
     margin:0 10px;
     display:inline-block;
     opacity:0.7;
   }
   
-  .team-boxed .social a:hover {
+.social a:hover {
     opacity:1;
   }
   div {

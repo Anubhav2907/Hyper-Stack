@@ -1,416 +1,528 @@
-<%- include('partials/head')%>
-    <%- include('partials/navbar')%>
-        <div class="team-boxed">
-            <div class="container">
-                <div class="intro">
-                    <h2 class="text-center">FACULTY NAME </h2>
-                    <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum
-                        nibh erat, pellentesque ut laoreet vitae.</p>
-                </div>
-                <div class="row people">
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/upenaDala.png">
-                            <h3 class="name">Dr. Upena. D .Dalal</h3>
-                            <p class="title">Phd. Professor</p>
-                            <p class="description"><b>Area of Research</b> : RF & Microwave Engineering
-                                Image Processing</p>
-                            <p class="description"><b>Teaching </b>:
-                                Digital communication
-                                Adhoc Networks
-                                Wideband communication
-                                Mobile computing
+<!DOCTYPE html>
+<html lang="en">
 
-                            </p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/resume_udd.pdf"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/AHL.png">
-                            <h3 class="name">Prof. A. H. Lalluwadia</h3>
-                            <p class="title">M. Tech.
-                                Associate Professor</p>
-                            <p class="description"> <b>Teaching</b>:
-                                Telematics
-                                RF & Microwave Engineering </p>
-                            <p class="description"> <b>Area of Research</b>:
-                                RF & Microwave Engineering
-                                Image Processing</p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/"><i class="fa fa-info"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/kar.png">
-                            <h3 class="name">Prof. Naresh B. Kanirkar</h3>
-                            <p class="title"> M.Tech.
-                                Associate Professor</p>
-                            <p class="description"> <b> <b>Teaching:</b></b>
-                                Basic of Electronics Engineering
-                                Electronic Devices & Circuits
-                                Solid State Devices</p>
-                            <p class="description"> <b><b>Area of Research:</b></b>
-                                CDMA
-                                Mobile Communication</p>
-                            <!-- <div class="social"><a href="#"><i class="fa fa-info" aria-hidden="true" ></i></a></div> -->
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f4.jpg">
-                            <h3 class="name">Dr. Prashant K. Shah</h3>
-                            <p class="title">M.E. Associate Professor</p>
-                            <p class="description"> <b> <b>Teaching:</b></b>
-                                Basics of Electronics Engineering
-                                Digital Circuits
-                                Microprocessor
-                                Digital Signal Processing
-                            </p>
-                            <p class="description"> <b><b>Area of Research:</b></b>
-                                LMI Based Improved Stability Criteria (DSP based)</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f5.jpg">
-                            <h3 class="name">Dr. Jignesh N. Sarvaiya</h3>
-                            <p class="title">Ph. D. Associate Professor</p>
-                            <p class="description"> <b> <b>Teaching:</b></b>
-                                Electronic System Design
-                                Digital Image Processing
-                                Information Theory & Coding
-                                Analog Integrated Circuits
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,700i,800i,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 
-                            </p>
-                            <p class="description"> <b><b>Area of Research:</b></b>
-                                Image Processing
-                                Medical Instrumentation</p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/8171jns.pdf"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f10.jpg">
-                            <h3 class="name">Dr. (Mrs.) Rasika N. Dhavse</h3>
-                            <p class="title">Ph. D. Associate Professor</p>
-                            <p class="description"> <b> <b>Teaching:</b></b>
-                                VLSI Design
-                                VLSI Technology
-                                Electronic Circuits
-                            </p>
-                            <p class="description"> <b><b>Area of Research:</b></b>
-                                VLSI Design
-                            </p>
-                            <div class="social"><a href="#"><i class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f6.jpg">
-                            <h3 class="name">Dr. Anand D. Darji</h3>
-                            <p class="title">B.E (Electronics) M.Tech (Electronics Systems), IIT Bombay Ph.D.
-                                (Microelectronics), IIT Bombay
-                                Associate Professort</p>
-                            <p class="description"> <b> <b>Teaching:</b></b>
-                                VLSI Design
-                                Electronics Instrumentation
-                                Digital Integrated Circuits
-                                Digital VLSI Design (PG)
-                                VLSI System Design ( PG-Elective)
-                            </p>
-                            <p class="description"> <b><b>Area of Research:</b></b>
-                                VLSI Design
-                                FPGA-based systems design
-                                Device modelling
-                                VLSI DSP architecture
-                                Embedded System Design
-                                Electronics Instrumentation
-                                Signal Processing
-                                Bio-medical Signal/image processing
-                            </p>
-                            <div class="social"><a href="#"><i class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
+    <script src="https://kit.fontawesome.com/225632cc11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpathNB.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="index_css.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
 
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f7.jpg">
-                            <h3 class="name">Dr. PIYUSH N. PATEL</h3>
-                            <p class="title">Ph. D.
-                                Associate Professor</p>
-                            <p class="description"> <b>Teaching:</b>
-                                Optical Communication Systems
-                                Optical Networks
-                                Analog and Digital Communication Systems
-                                Sensors and Transducers
-                                Electronic Devices and Circuit</p>
-                            <p class="description"> <b>Area of Research:</b>
-                                Optical Communications and Networks
-                                Photonics Devices & Sensors
-                                Microwave Antenna and Wavegudes
-                                Metamaterial based Sensors
-                                Optical, RF, Metamaterial based Sensors & Biosensors</p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/pnpatel.pdf"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <div class="col-lg-1 pt-1 pb-1">
+                <a style="padding: 0px;" href="/" class="navbar-brand p-2">
+                    <img style="margin-right: 1em;" src="images\svnit logo.png" alt="" height="13%" width="13%"> Sardar
+                    Vallabhbhai National
+                    Institute of Technology
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-lg-7">
+            </div>
+            <div class="collapse navbar-collapse col-lg-4 last" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            People
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-top" href="/faculty">Faculty</a></li>
+                            <li><a class="dropdown-item" href="/staff">Staff</a></li>
+                            <li><a class="dropdown-item" href="/students">M.Tech Students</a></li>
+                            <li><a class="dropdown-item" href="/phd">Ph.D Students</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row" style="margin-top: 4em;">
+            <div class="col-lg-6 col-md-6">
+                <img class="svg" src="undraw_teaching_f1cm.svg" alt="Kiwi standing on oval">
+            </div>
+            <div class="intro col-lg-6 col-md-6">
+                <div style="padding-left: 2em;">
+                    <div>
+                        <h2 class="text-center" style="display: block;">FACULTY </h2>
                     </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f8.jpg">
-                            <h3 class="name">Dr. Zuber M. Patel</h3>
-                            <p class="title">Ph. D.
-                                Associate Professor</p>
-                            <p class="description"><b><b>Teaching:</b></b>
-                                Optical Communication Systems
-                                Optical Networks
-                                Analog and Digital Communication Systems
-                                Sensors and Transducers
-                                Electronic Devices and Circuits </p>
-                            <p class="description"> <b>Area of Research:</b>
-                                Optical Communications and Networks
-                                Photonics Devices & Sensors
-                                Microwave Antenna and Wavegudes
-                                Metamaterial based Sensors
-                                Optical, RF, Metamaterial based Sensors & Biosensors
-                            </p>
-
-                            <div class="social"><a href="#"><i class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f9.jpg">
-                            <h3 class="name">Dr. Pinalkumar J. Engineer</h3>
-                            <p class="title">Ph. D.
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Advanced Processor Architecture
-                                DSP Structures for VLSI
-                                Embedded Systems
-                                Real Time Systems </p>
-                            <p class="description"><b>Area of Research:</b>
-                                FPGA based system design
-                                VLSI architecture for real-time signal/image processing
-                                High performance embedded computing
-                                Embedded and real-time systems </p>
-                            <div class="social"><a href="https://svnit.ac.in/Data/facup/pjengineer/index.html"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f11.jpg">
-                            <h3 class="name">Dr. Abhilash S. Mandloi</h3>
-                            <p class="title">Ph. D.
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Optical Networks, Advance Optical Communication Systems,
-                                Basics of Electronics Engineering,
-                                Data Communication and Networks,
-                                Linear Electronics </p>
-                            <p class="description"> <b>Area of Research:</b>
-                                Fibre Optics Optical Communications,
-                                Optical Networks, Free Space Optics,
-                                Photonic Devices, Integrated Optics</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f12.jpg">
-                            <h3 class="name">Dr. (Ms.) Jigisha N. Patel</h3>
-                            <p class="title">Ph. D.
-                                Associate Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Information Theory and Coding
-                                Multimedia Communication
-                                Digital Logic Design
-                                Image processing </p>
-                            <p class="description"><b>Area of Research:</b>
-                                Wireless Communication
-                                Image / Video Coding</p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/jnp.pdf"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f13.jpg">
-                            <h3 class="name">Dr. (Ms.) Shilpi Gupta</h3>
-                            <p class="title">Ph. D.
-                                Associate Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Digital satellite Communication
-                                Digital Electronics
-                                Electronics Devices and Circuits
-                                MIMO Technology
-                                Analog and Digital Communication</p>
-                            <p class="description"><b>Area of Research:</b>
-                                5G Technology
-                                Massive MIMO Detection Techniques
-                                Antenna Design for 5G Applications
-                                Waveform Designing for MIMO Radar
-                                Free Space Optics
-                                Fiber Optic Sensors</p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/6291SGupta.pdf"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f14.jpg">
-                            <h3 class="name">Prof. Golak Santra</h3>
-                            <p class="title">M.E.
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                EM Theory
-                                Analog Integrated Circuit
-                                Microwave Integrated Circuit,Microwave Engineering </p>
-                            <p class="description"><b>Area of Research:</b>
-                                Patch AntennaMicro-strip filter </p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/gs.pdf"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f15.jpg">
-                            <h3 class="name">Dr. (Mrs.) Shweta N. Shah</h3>
-                            <p class="title">Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Basics of Communication System
-                                Mobile Communication
-                                Wireless Communication
-                                Mobile Computing
-                            </p>
-                            <p class="description"><b>Area of Research:</b>
-                                Wireless Communication
-                                Mobile Communication and standards
-                                Digital Video Broadcast and standards
-                                Cognitive Radio
-                                NavIC/IRNSS</p>
-                            <div class="social"><a href="https://www.svnit.ac.in/facup/SNS/index.html"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f16.jpg">
-                            <h3 class="name">Prof. Mehul C. Patel</h3>
-                            <p class="title">M.E.
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Information Theory & Coding
-                                Application of DSP
-                                Analog & Digital Communication
-                                Satellite Communication
-                            </p>
-                            <p class="description"> <b>Area of Research:</b>
-                                Digital Signal Processing using VLSI</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f17.jpg">
-                            <h3 class="name">Dr. Kishor P. Upla</h3>
-                            <p class="title">Ph.D. (DA-IICT, Gandhinagar)
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Signals & Systems
-                                Digital Signal Processing
-                                Electronics Devices & Circuits
-                                Communication Systems
-                            </p>
-                            <p class="description"><b>Area of Research:</b>
-                                Machine/Deep Learning
-                                Object detection/recognition,
-                                Multi-spectral and hyperspectral image processing
-                                Image Restoration
-                                Bio-medical Image Fusion
-                                Information Fusion
-                                Multi-Resolution Image Fusion/Pan-Sharpening
-                                Image Super - Resolution</p>
-                            <div class="social"><a href="https://sites.google.com/site/kpupla/home"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f18.jpg">
-                            <h3 class="name">Dr. Deepak Joshi</h3>
-                            <p class="title">Ph.D. (IIT Guwahati)
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Testing and Verification of VLSI Circuits
-                            </p>
-                            <p class="description"><b>Area of Research:</b>
-                                Metaheuristics, Analog Circuits: Design and Optimization,
-                                Computational Intelligence, CAD for VLSI</p>
-                            <div class="social"><a href="https://sites.google.com/view/djoshi/home"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f19.jpg">
-                            <h3 class="name">Dr. Suman Deb</h3>
-                            <p class="title">Ph.D. (IIT Guwahati)
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Advance Digital Signal Processing
-                                Digital Signal Processing,
-                                Ad-Hoc Networks </p>
-                            <p class="description"><b>Area of Research:</b>
-                                Signal Processing,Speech Processing,Speech based Health Analysis,
-                                Emotion Analysis based on Speech and Image,Speech Pathology Detection,
-                                Voice Conversion/ Speaker Identity Conversion,Pattern Recognition </p>
-                            <div class="social"><a href="https://sites.google.com/view/sumandeb/home"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f20.jpg">
-                            <h3 class="name">Dr. Abhishek Acharya</h3>
-                            <p class="title">PhD , IIT Roorkee
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Electronic Devices,Electronic Circuits,
-                                Linear Integrated Circuits,
-                                VLSI Design</p>
-                            <p class="description"><b>Area of Research:</b>
-                                Physics & Modeling of Nano-Scale Devices,
-                                Device-Circuit Interactions in Nano-Scale Transistors,
-                                Wide Bandgap Semiconductors and 2D Materials for Devices & Circuits</p>
-                            <div class="social"><a href="https://sites.google.com/view/abhishekacharya/home"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f21.jpg">
-                            <h3 class="name">Dr. Kirti Inamdar</h3>
-                            <p class="title">Ph.D.
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Electromagnetics and wave Propagation Theory,
-                                Antenna Theory, RF & Microwave Theory,
-                                Satellite Communication, RADAR and its Application,
-                                Analog & digital Communication</p>
-                            <p class="description"><b>Area of Research:</b>
-                                Microstrip Patch Antenna design using Metamaterials,
-                                Wearable Antennas</p>
-                            <div class="social"><a
-                                    href="https://www.svnit.ac.in/facup/KIRTI-INAMDAR_resume_SVNIT.pdf"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4"></div>
-                    <div class="col-md-6 col-lg-4 item">
-                        <div class="box"><img class="rounded-circle" src="images/f22.jpg">
-                            <h3 class="name">Dr. Kamal Captain</h3>
-                            <p class="title">Ph.D. (DAIICT, Gandhinagar)
-                                Assistant Professor</p>
-                            <p class="description"><b>Teaching:</b>
-                                Probability and Random Processes
-                                Signals and Systems,
-                                Digital Signal Processing,
-                                Electronic System Design</p>
-                            <p class="description"><b>Area of Research:</b>
-                                Cognitive Radio, Signal Processing,
-                                Statistical Signal Processing,
-                                Wireless Communication, Machine Learning</p>
-                            <div class="social"><a
-                                    href="https://sites.google.com/site/kamalcaptain/"><i
-                                        class="fa fa-info"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4"></div>
-
+                    <p class="text-center">
+                        SVNIT has attracted outstanding faculty members from the best educational institutions around
+                        the
+                        world. Their diverse training experiences, and expertise makes SVNIT an institution of learning
+                        like
+                        no
+                        other in India. Our vibrant visiting faculty program brings academicians from other institutions
+                        around the world to
+                        collaborate and interact with our faculty, making IIT Gandhinagar a truly global environment to
+                        work.
+                        <br> Given below is the Information of faculty from ECE Department.
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row" style="text-align: center; ">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box" style="margin-top: 7em;"><img class="rounded-circle" src="images/upenaDala.png">
+                    <h3 class="name">Dr. Upena. D .Dalal</h3>
+                    <p class="title">Phd. Professor</p>
+                    <p class="description"><b>Area of Research</b> : RF & Microwave Engineering
+                        Image Processing</p>
+                    <p class="description"><b>Teaching </b>:
+                        Digital communication
+                        Adhoc Networks
+                        Wideband communication
+                        Mobile computing
 
-        <%- include('partials/footer')%>
+                    </p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/resume_udd.pdf"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/AHL.png">
+                    <h3 class="name">Prof. A. H. Lalluwadia</h3>
+                    <p class="title">M. Tech.
+                        Associate Professor</p>
+                    <p class="description"> <b>Teaching</b>:
+                        Telematics
+                        RF & Microwave Engineering </p>
+                    <p class="description"> <b>Area of Research</b>:
+                        RF & Microwave Engineering
+                        Image Processing</p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/"><i class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/kar.png">
+                    <h3 class="name">Prof. Naresh B. Kanirkar</h3>
+                    <p class="title"> M.Tech.
+                        Associate Professor</p>
+                    <p class="description"> <b> <b>Teaching:</b></b>
+                        Basic of Electronics Engineering
+                        Electronic Devices & Circuits
+                        Solid State Devices</p>
+                    <p class="description"> <b><b>Area of Research:</b></b>
+                        CDMA
+                        Mobile Communication</p>
+                    <!-- <div class="social"><a href="#"><i class="fa fa-info" aria-hidden="true" ></i></a></div> -->
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f4.jpg">
+                    <h3 class="name">Dr. Prashant K. Shah</h3>
+                    <p class="title">M.E. Associate Professor</p>
+                    <p class="description"> <b> <b>Teaching:</b></b>
+                        Basics of Electronics Engineering
+                        Digital Circuits
+                        Microprocessor
+                        Digital Signal Processing
+                    </p>
+                    <p class="description"> <b><b>Area of Research:</b></b>
+                        LMI Based Improved Stability Criteria (DSP based)</p>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f5.jpg">
+                    <h3 class="name">Dr. Jignesh N. Sarvaiya</h3>
+                    <p class="title">Ph. D. Associate Professor</p>
+                    <p class="description"> <b> <b>Teaching:</b></b>
+                        Electronic System Design
+                        Digital Image Processing
+                        Information Theory & Coding
+                        Analog Integrated Circuits
+
+                    </p>
+                    <p class="description"> <b><b>Area of Research:</b></b>
+                        Image Processing
+                        Medical Instrumentation</p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/8171jns.pdf"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f10.jpg">
+                    <h3 class="name">Dr. (Mrs.) Rasika N. Dhavse</h3>
+                    <p class="title">Ph. D. Associate Professor</p>
+                    <p class="description"> <b> <b>Teaching:</b></b>
+                        VLSI Design
+                        VLSI Technology
+                        Electronic Circuits
+                    </p>
+                    <p class="description"> <b><b>Area of Research:</b></b>
+                        VLSI Design
+                    </p>
+                    <div class="social"><a href="#"><i class="fa fa-info"></i></a></div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f6.jpg">
+                    <h3 class="name">Dr. Anand D. Darji</h3>
+                    <p class="title">B.E (Electronics) M.Tech (Electronics Systems), IIT Bombay Ph.D.
+                        (Microelectronics), IIT Bombay
+                        Associate Professort</p>
+                    <p class="description"> <b> <b>Teaching:</b></b>
+                        VLSI Design
+                        Electronics Instrumentation
+                        Digital Integrated Circuits
+                        Digital VLSI Design (PG)
+                        VLSI System Design ( PG-Elective)
+                    </p>
+                    <p class="description"> <b><b>Area of Research:</b></b>
+                        VLSI Design
+                        FPGA-based systems design
+                        Device modelling
+                        VLSI DSP architecture
+                        Embedded System Design
+                        Electronics Instrumentation
+                        Signal Processing
+                        Bio-medical Signal/image processing
+                    </p>
+                    <div class="social"><a href="#"><i class="fa fa-info"></i></a></div>
+                </div>
+            </div>
+
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f7.jpg">
+                    <h3 class="name">Dr. PIYUSH N. PATEL</h3>
+                    <p class="title">Ph. D.
+                        Associate Professor</p>
+                    <p class="description"> <b>Teaching:</b>
+                        Optical Communication Systems
+                        Optical Networks
+                        Analog and Digital Communication Systems
+                        Sensors and Transducers
+                        Electronic Devices and Circuit</p>
+                    <p class="description"> <b>Area of Research:</b>
+                        Optical Communications and Networks
+                        Photonics Devices & Sensors
+                        Microwave Antenna and Wavegudes
+                        Metamaterial based Sensors
+                        Optical, RF, Metamaterial based Sensors & Biosensors</p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/pnpatel.pdf"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f9.jpg">
+                    <h3 class="name">Dr. Pinalkumar J. Engineer</h3>
+                    <p class="title">Ph. D.
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Advanced Processor Architecture
+                        DSP Structures for VLSI
+                        Embedded Systems
+                        Real Time Systems </p>
+                    <p class="description"><b>Area of Research:</b>
+                        FPGA based system design
+                        VLSI architecture for real-time signal/image processing
+                        High performance embedded computing
+                        Embedded and real-time systems </p>
+                    <div class="social"><a href="https://svnit.ac.in/Data/facup/pjengineer/index.html"><i
+                                class="fa fa-info"></i></a></div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f11.jpg">
+                    <h3 class="name">Dr. Abhilash S. Mandloi</h3>
+                    <p class="title">Ph. D.
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Optical Networks, Advance Optical Communication Systems,
+                        Basics of Electronics Engineering,
+                        Data Communication and Networks,
+                        Linear Electronics </p>
+                    <p class="description"> <b>Area of Research:</b>
+                        Fibre Optics Optical Communications,
+                        Optical Networks, Free Space Optics,
+                        Photonic Devices, Integrated Optics</p>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f12.jpg">
+                    <h3 class="name">Dr. (Ms.) Jigisha N. Patel</h3>
+                    <p class="title">Ph. D.
+                        Associate Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Information Theory and Coding
+                        Multimedia Communication
+                        Digital Logic Design
+                        Image processing </p>
+                    <p class="description"><b>Area of Research:</b>
+                        Wireless Communication
+                        Image / Video Coding</p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/jnp.pdf"><i class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f13.jpg">
+                    <h3 class="name">Dr. (Ms.) Shilpi Gupta</h3>
+                    <p class="title">Ph. D.
+                        Associate Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Digital satellite Communication
+                        Digital Electronics
+                        Electronics Devices and Circuits
+                        MIMO Technology
+                        Analog and Digital Communication</p>
+                    <p class="description"><b>Area of Research:</b>
+                        5G Technology
+                        Massive MIMO Detection Techniques
+                        Antenna Design for 5G Applications
+                        Waveform Designing for MIMO Radar
+                        Free Space Optics
+                        Fiber Optic Sensors</p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/6291SGupta.pdf"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f14.jpg">
+                    <h3 class="name">Prof. Golak Santra</h3>
+                    <p class="title">M.E.
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        EM Theory
+                        Analog Integrated Circuit
+                        Microwave Integrated Circuit,Microwave Engineering </p>
+                    <p class="description"><b>Area of Research:</b>
+                        Patch AntennaMicro-strip filter </p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/gs.pdf"><i class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f15.jpg">
+                    <h3 class="name">Dr. (Mrs.) Shweta N. Shah</h3>
+                    <p class="title">Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Basics of Communication System
+                        Mobile Communication
+                        Wireless Communication
+                        Mobile Computing
+                    </p>
+                    <p class="description"><b>Area of Research:</b>
+                        Wireless Communication
+                        Mobile Communication and standards
+                        Digital Video Broadcast and standards
+                        Cognitive Radio
+                        NavIC/IRNSS</p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/SNS/index.html"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f16.jpg">
+                    <h3 class="name">Prof. Mehul C. Patel</h3>
+                    <p class="title">M.E.
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Information Theory & Coding
+                        Application of DSP
+                        Analog & Digital Communication
+                        Satellite Communication
+                    </p>
+                    <p class="description"> <b>Area of Research:</b>
+                        Digital Signal Processing using VLSI</p>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f17.jpg">
+                    <h3 class="name">Dr. Kishor P. Upla</h3>
+                    <p class="title">Ph.D. (DA-IICT, Gandhinagar)
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Signals & Systems
+                        Digital Signal Processing
+                        Electronics Devices & Circuits
+                        Communication Systems
+                    </p>
+                    <p class="description"><b>Area of Research:</b>
+                        Machine/Deep Learning
+                        Object detection/recognition,
+                        Multi-spectral and hyperspectral image processing
+                        Image Restoration
+                        Bio-medical Image Fusion
+                        Information Fusion
+                        Multi-Resolution Image Fusion/Pan-Sharpening
+                        Image Super - Resolution</p>
+                    <div class="social"><a href="https://sites.google.com/site/kpupla/home"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f18.jpg">
+                    <h3 class="name">Dr. Deepak Joshi</h3>
+                    <p class="title">Ph.D. (IIT Guwahati)
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Testing and Verification of VLSI Circuits
+                    </p>
+                    <p class="description"><b>Area of Research:</b>
+                        Metaheuristics, Analog Circuits: Design and Optimization,
+                        Computational Intelligence, CAD for VLSI</p>
+                    <div class="social"><a href="https://sites.google.com/view/djoshi/home"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f19.jpg">
+                    <h3 class="name">Dr. Suman Deb</h3>
+                    <p class="title">Ph.D. (IIT Guwahati)
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Advance Digital Signal Processing
+                        Digital Signal Processing,
+                        Ad-Hoc Networks </p>
+                    <p class="description"><b>Area of Research:</b>
+                        Signal Processing,Speech Processing,Speech based Health Analysis,
+                        Emotion Analysis based on Speech and Image,Speech Pathology Detection,
+                        Voice Conversion/ Speaker Identity Conversion,Pattern Recognition </p>
+                    <div class="social"><a href="https://sites.google.com/view/sumandeb/home"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f20.jpg">
+                    <h3 class="name">Dr. Abhishek Acharya</h3>
+                    <p class="title">PhD , IIT Roorkee
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Electronic Devices,Electronic Circuits,
+                        Linear Integrated Circuits,
+                        VLSI Design</p>
+                    <p class="description"><b>Area of Research:</b>
+                        Physics & Modeling of Nano-Scale Devices,
+                        Device-Circuit Interactions in Nano-Scale Transistors,
+                        Wide Bandgap Semiconductors and 2D Materials for Devices & Circuits</p>
+                    <div class="social"><a href="https://sites.google.com/view/abhishekacharya/home"><i
+                                class="fa fa-info"></i></a></div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f21.jpg">
+                    <h3 class="name">Dr. Kirti Inamdar</h3>
+                    <p class="title">Ph.D.
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Electromagnetics and wave Propagation Theory,
+                        Antenna Theory, RF & Microwave Theory,
+                        Satellite Communication, RADAR and its Application,
+                        Analog & digital Communication</p>
+                    <p class="description"><b>Area of Research:</b>
+                        Microstrip Patch Antenna design using Metamaterials,
+                        Wearable Antennas</p>
+                    <div class="social"><a href="https://www.svnit.ac.in/facup/KIRTI-INAMDAR_resume_SVNIT.pdf"><i
+                                class="fa fa-info"></i></a></div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="item fade-right" data-aos="fade-left">
+                <div class="box"><img class="rounded-circle" src="images/f22.jpg">
+                    <h3 class="name">Dr. Kamal Captain</h3>
+                    <p class="title">Ph.D. (DAIICT, Gandhinagar)
+                        Assistant Professor</p>
+                    <p class="description"><b>Teaching:</b>
+                        Probability and Random Processes
+                        Signals and Systems,
+                        Digital Signal Processing,
+                        Electronic System Design</p>
+                    <p class="description"><b>Area of Research:</b>
+                        Cognitive Radio, Signal Processing,
+                        Statistical Signal Processing,
+                        Wireless Communication, Machine Learning</p>
+                    <div class="social"><a href="https://sites.google.com/site/kamalcaptain/"><i
+                                class="fa fa-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item fade-right" data-aos="fade-right">
+                <div class="box"><img class="rounded-circle" src="images/f8.jpg">
+                    <h3 class="name">Dr. Zuber M. Patel</h3>
+                    <p class="title">Ph. D.
+                        Associate Professor</p>
+                    <p class="description"><b><b>Teaching:</b></b>
+                        Optical Communication Systems
+                        Optical Networks
+                        Analog and Digital Communication Systems
+                        Sensors and Transducers
+                        Electronic Devices and Circuits </p>
+                    <p class="description"> <b>Area of Research:</b>
+                        Optical Communications and Networks
+                        Photonics Devices & Sensors
+                        Microwave Antenna and Wavegudes
+                        Metamaterial based Sensors
+                        Optical, RF, Metamaterial based Sensors & Biosensors
+                    </p>
+
+                    <div class="social"><a href="#"><i class="fa fa-info"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
