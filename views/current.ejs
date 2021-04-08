@@ -1,58 +1,5 @@
 <%- include('partials/head')%>
-
-    <body style="background-color: #d3e0ea;">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-                <div class="col-lg-1 pt-1 pb-1">
-                    <a style="padding: 0px;" href="https://www.svnit.ac.in/" class="navbar-brand p-2">
-                        <img style="margin-right: 1em;" src="images\svnit logo.png" alt="" height="13%" width="13%"> Sardar Vallabhbhai National
-                        Institute of Technology
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="col-lg-7">
-                </div>
-                <div class="collapse navbar-collapse col-lg-4 last" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                People
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item dropdown-top" href="/faculty">Faculty</a></li>
-                                <li><a class="dropdown-item" href="/staff">Staff</a></li>
-                                <li><a class="dropdown-item" href="/students">M.Tech Students</a></li>
-                                <li><a class="dropdown-item" href="/phd">Ph.D Students</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Research
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item " href="/SponsoredProjects">Completed Research
-                                        Projects</a></li>
-                                <li><a class="dropdown-item " href="/Currentprojects">Ongoing Research
-                                        Projects</a></li>
-                                <li><a class="dropdown-item" href="/ResearchFacilities">Research Facilities</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/about">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<%- include('partials/navbar')%>
         <div class="list">
             <p class="completed">List of Ongoing Sponsored Research Projects</p>
         </div>
