@@ -47,15 +47,6 @@ app.get('/phd', function (req, res) {
 app.get('/Research', function (req, res) {
     res.render('research')
 })
-app.get('/about/anubhav', function (req, res) {
-    res.render('anx', {details})
-})
-app.get('/about/arnav', function (req, res) {
-    res.render('arnav', {details})
-})
-app.get('/about/vinit', function (req, res) {
-    res.render('vinit', {details})
-})
 app.listen(3000, function () {
     console.log('On port 3000!!!');
 })
