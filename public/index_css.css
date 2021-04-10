@@ -1101,6 +1101,13 @@ body .abt {
     object-position: center right;
 }
 
+@media (40em){
+    .image{
+        width: 100%;
+        height: auto;
+    }
+}
+
 .abt .image--cover:hover {
     -ms-transform: scale(1.5);
     /* IE 9 */
@@ -1371,3 +1378,6 @@ body .abt {
   right:-15px;
 }
 
+.model-body i{
+    font-size: 0.75em;
+}
