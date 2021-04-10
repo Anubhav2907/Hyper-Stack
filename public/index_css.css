@@ -394,8 +394,12 @@ body {
     background-color: #000000!important;
 }
 
-.navbar-toggler {
+ .navbar-toggler {
     color: black;
+    position: relative;
+    float: right;
+    /* top : 0; */
+    /* z-index: 1; */
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -1362,3 +1366,4 @@ body .abt {
 .dropdown-menu {
   right:-15px;
 }
+
