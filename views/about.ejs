@@ -1,39 +1,73 @@
 <%- include('partials/head')%>
     <%- include('partials/navbar')%>
-        
+
         <div class="abt">
             <section>
-                <div class = "image">
+                <div class="image">
                     <!-- image here -->
                     <p></p>
                 </div>
-    
-                <div class = "content">
+
+                <div class="content">
                     <h2 style="color: black;">About Us</h2>
-                    <span><!-- line here --></span>
-    
-          
-                    <p style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo facilis unde quos corporis!</p>
-                   
-                    <div class="wrapper">
-      
-                        <img src="images/arnav.png" class="image--cover">
-                        
-                        <img src="images/anubhav.png" alt="" class="image--cover" />
-                        
-                        <img src="images/profile_pic.png" alt="" class="image--cover" />
-                      </div>
-                      <div class="share-button">
-                        <span style="font-size: 1.5rem;font-family: 'Poppins', sans-serif;"><i class="fas fa-share-alt"></i>  Contact</span>
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-github"></i></a>
-                    </div>  
-    
+                    <div class="wrapper row">
+                        <div class="col-lg-4 col-md-12" style="text-align: center;">
+                            <a href="about/arnav"><img src="images/arnav.png" class="image--cover"></a>
+                            <nav class="btn-pluss-wrapper">
+                                <!-- <h2 class="tooltip">Look!</h2> -->
+                                <div href="#" class="btn-pluss">
+                                    <ul>
+                                        <li><a href="arnav.pdf" target="_blank">Resume</a></li>
+                                        <li><a href='https://github.com/Arnav02' target="_blank">Github</a></li>
+                                        <li><a href="https://www.linkedin.com/in/arnav-adhiya-b241a717a/" target="_blank">Linkedin</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-lg-4 col-md-12" style="text-align: center;">
+                            <a href="about/anubhav"><img src="images/anubhav.png" alt="" class="image--cover" /></a>
+                            <nav class="btn-pluss-wrapper">
+                                <!-- <h2 class="tooltip">Look!</h2> -->
+                                <div href="#" class="btn-pluss">
+                                    <ul>
+                                        <li><a href="anx.pdf" target="_blank">Resume</a></li>
+                                        <li><a href='https://github.com/Anubhav2907' target="_blank">Github</a></li>
+                                        <li><a href="https://www.linkedin.com/in/anubhav-singh-jadoun-2689621b3/" target="_blank">Linkedin</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-lg-4 col-md-12" style="text-align: center;">
+                            <a href="about/vinit"><img src="images/profile_pic.png" alt="" class="image--cover" /></a>
+                            <nav class="btn-pluss-wrapper">
+                                <!-- <h2 class="tooltip">Look!</h2> -->
+                                <div href="#" class="btn-pluss">
+                                    <ul>
+                                        <li><a href="vinix.pdf" target="_blank">Resume</a></li>
+                                        <li><a href='https://github.com/mairalvinit' target="_blank">Github</a></li>
+                                        <li><a href="https://www.linkedin.com/in/vinitmairal/" target="_blank">Linkedin</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <p style="color: black;">We are Hyper-Stack, a group of tech devotees who accept in tossing out
+                        our abilities in order to make a difference. The inborn bunch of engineers,
+                        designers and marketing geniuses will make beyond any doubt only to stop you from dropping
+                        behind in this pacing world. We are young minds and certainty streams in
+                        our blood. In the event that anything isn't in our space, we rethink our qualities, and after
+                        that bring it out before everyone. No hotchpotch, no if’s and but’s. Fair a YES!.</p>
+                    <div class="share-button">
+                        <span style="font-size: 1.5rem;font-family: 'Poppins', sans-serif;"><i
+                                class="fas fa-share-alt"></i> Contact Us</span>
+                        <a href="https://www.facebook.com/vinit.mairal" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/adhiya_arnav" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/anxbhxv/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/Anubhav2907/Hyper-Stack" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+
                 </div>
             </section>
         </div>
-        
-    </body>
-</html>
+
+        <%- include('partials/footer')%>
