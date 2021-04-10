@@ -1101,7 +1101,7 @@ body .abt {
     object-position: center right;
 }
 
-@media (40em){
+@media (max-width : 700px)){
     .image{
         width: 100%;
         height: auto;
