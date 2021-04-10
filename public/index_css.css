@@ -413,7 +413,11 @@ body {
 .navbar {
     padding: 0;
 }
-
+@media (max-width: 40em) {
+    .title {
+    display: none;
+    }
+    }
 
 /* css for text animation */
 
